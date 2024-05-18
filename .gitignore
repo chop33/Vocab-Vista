@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+vocab-vista-frontend/node_modules
+vocab-vista-frontend/package-lock.json
+vocab-vista-frontend/.pnp
+vocab-vista-frontend/.pnp.js
+
+# testing
+vocab-vista-frontend/coverage
+
+# production
+vocab-vista-frontend/build
+
+# misc
+vocab-vista-frontend/.DS_Store
+vocab-vista-frontend/.env.local
+vocab-vista-frontend/.env.development.local
+vocab-vista-frontend/.env.test.local
+vocab-vista-frontend/.env.production.local
+
+vocab-vista-frontend/npm-debug.log*
+vocab-vista-frontend/yarn-debug.log*
+vocab-vista-frontend/yarn-error.log*
